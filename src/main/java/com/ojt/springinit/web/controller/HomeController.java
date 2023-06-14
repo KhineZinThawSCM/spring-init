@@ -10,9 +10,10 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class HomeController {
-	
+
 	/**
 	 * Welcome
+	 * 
 	 * @return ModelAndView
 	 */
 	@GetMapping("home")
